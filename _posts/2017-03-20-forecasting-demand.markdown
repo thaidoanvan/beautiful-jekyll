@@ -4,15 +4,6 @@ title : "Forecasting Demand"
 date : 2017-03-21 00:35:00 +0700
 categories : SCM Fundamental
 --- 
-<!-- MarkdownTOC -->
-
-- Demand
-    - Dự báo cầu
-    - Các facts về forecasting:
-    - Các hướng tiếp cận đối với Forecasting
-    - Chất lượng của dự báo
-
-<!-- /MarkdownTOC -->
 
 *Trong bài viết này, tôi sẽ giới thiệu về Forecast Demand và một số methods cơ bản dùng trong Forecast Demand dưới góc nhìn quản trị chuỗi cung ứng*
 # Demand
