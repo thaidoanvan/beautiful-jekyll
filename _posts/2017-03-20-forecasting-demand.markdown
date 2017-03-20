@@ -4,6 +4,16 @@ title : "Forecasting Demand"
 date : 2017-03-21 00:35:00 +0700
 categories : SCM Fundamental
 --- 
+<!-- MarkdownTOC -->
+
+- Demand
+    - Dự báo cầu
+    - Các facts về forecasting:
+    - Các hướng tiếp cận đối với Forecasting
+    - Chất lượng của dự báo
+
+<!-- /MarkdownTOC -->
+
 *Trong bài viết này, tôi sẽ giới thiệu về Forecast Demand và một số methods cơ bản dùng trong Forecast Demand dưới góc nhìn quản trị chuỗi cung ứng*
 # Demand
 Quản trị chuỗi cung ứng là tất cả những việc cần làm nhằm kết nối cung và cầu. Chính vì vậy, việc hiểu cũng như việc dự đoán cầu là một bước quan trọng  và cũng là bước đầu tiên trong việc thiết kế một chuỗi cung ứng.  Chúng ta dự đoán cầu nhằm phục vụ việc hoạch định nguồn lực, quản lý tồn kho hay lên kế hoạch vận tải, .... 
