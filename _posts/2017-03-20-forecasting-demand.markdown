@@ -7,7 +7,7 @@ categories : SCM Fundamental
 
 *Trong bài viết này, tôi sẽ giới thiệu về Forecast Demand và một số methods cơ bản dùng trong Forecast Demand dưới góc nhìn quản trị chuỗi cung ứng*
 # Demand
-Quản trị chuỗi cung ứng là tất cả những việc cần làm nhằm kết nối cung và cầu. Chính vì vậy, việc hiểu cũng như việc dự đoán cầu là một bước quan trọng  và cũng là bước đầu tiên trong việc thiết kế một chuỗi cung ứng.  Chúng ta dự đoán cầu nhằm phục vụ việc hoạch định nguồn lực, quản lý tồn kho hay lên kế hoạch vận tải, .... 
+Quản trị chuỗi cung ứng bao gồm tất cả những việc cần làm nhằm kết nối cung và cầu. Chính vì vậy, việc hiểu cũng như việc dự đoán cầu là một bước quan trọng  và cũng là bước đầu tiên trong việc thiết kế một chuỗi cung ứng.  Chúng ta dự đoán cầu nhằm phục vụ việc hoạch định nguồn lực, quản lý tồn kho hay lên kế hoạch vận tải, kế hoạch sản xuất, etc. 
 Về cầu, chúng ta cần phải trả lời 3 câu hỏi chính:
 * Làm thế nào để tạo ra nhu cầu cho sản phẩm?
 * Ước lượng nhu cầu sản phẩm?
@@ -16,9 +16,9 @@ Về cầu, chúng ta cần phải trả lời 3 câu hỏi chính:
 
 ## Dự báo cầu
 Có 3 levels:
-* *Strategic* : Thường dự báo trong khoảng thời gian tính theo năm, nhằm mục đích lên kế hoạch kinh doanh, lên kế hoạch về nguồn lực, các chiến lược đầu tư
-* *Tactical*: Dự báo trong khoảng thời gian tính theo quý, tháng, tuần, nhằm lên kế hoạch bán hàng, tồn kho hay hoạch định về nhân lực
-* *Operational*: Dự báo trong khoảng thời gian tính theo ngày, giờ cho các hoạt động vận hành như kế hoạch vận tải, sản xuất...
+* Strategic: Thường dự báo trong khoảng thời gian tính theo năm, nhằm mục đích lên kế hoạch kinh doanh, lên kế hoạch về nguồn lực, các chiến lược đầu tư  
+* Tactical: Dự báo trong khoảng thời gian tính theo quý, tháng, tuần, nhằm lên kế hoạch bán hàng, tồn kho hay hoạch định về nhân lực
+* Operational: Dự báo trong khoảng thời gian tính theo ngày, giờ cho các hoạt động vận hành như kế hoạch vận tải, sản xuất...
 
 
 ## Các facts về forecasting:
@@ -40,5 +40,3 @@ Việc ra quyết định đối với chất lượng của dự báo dựa tr�
 ![forecast-cost-vs-accuracy](/img/forecast-accuracy-cost.png)
 Chất lượng của dự báo được đánh gía dựa trên độ chính xác và phương sai của dự báo. Các thước đo của chất lượng có thể kể đến như: MSE, MAPE, RMSE,... thông thường ta sẽ sử dụng RMSE để đo lường chất lượng của dự báo. RMSE đưọc tính bằng công thức:  
 $$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-
