@@ -37,8 +37,8 @@ Gồm các phương pháp như xây dựng mô hình kinh tế lượng, time se
 
 ## Chất lượng của dự báo
 Việc ra quyết định đối với chất lượng của dự báo dựa trên việc tối thiểu hóa Total cost = Cost of Forecasting + Cost of Error in Forecasting.
-![forecast-cost-vs-accuracy](/assets/images/forecast-accuracy-cost.png)
-Chất lượng của dự báo được đánh gía đựa trên độ chính xác và phương sai của dự báo. Các thưóc đo của chất lượng có thể kể đến như: MSE, MAPE, RMSE,... thông thường ta sẽ sử dụng RMSE để đo lường chất lượng của dự báo. RMSE đưọc tính bằng công thức:  
+![forecast-cost-vs-accuracy](/img/forecast-accuracy-cost.png)
+Chất lượng của dự báo được đánh gía dựa trên độ chính xác và phương sai của dự báo. Các thước đo của chất lượng có thể kể đến như: MSE, MAPE, RMSE,... thông thường ta sẽ sử dụng RMSE để đo lường chất lượng của dự báo. RMSE đưọc tính bằng công thức:  
 $$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
 $$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
 
